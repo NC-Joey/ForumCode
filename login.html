@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - Forum</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+        <link rel="stylesheet" href="/css/sign.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <span class="heading">Login</span>
+
+            <form action="/" method="post" id="login">
+                <i class="fa-light fa-envelope" for="email"></i>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br/>
+                <i class="fa-light fa-lock fa-fade" for="password"></i>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br/>
+                <label for="remember">
+                    <input type="checkbox" name="remember" id="remember">Remember me
+                </label>
+                <br/>
+                <input type="submit" value="Login">
+            </form>
+
+            <div class="alt-login">
+                <p>Or login with</p>
+                <div class="social-div">
+                    <button class="social facebook"><img src="/icons/facebook.png">Facebook</button>
+                    <button class="social google"><img src="/icons/google.png">Google</button>
+                </div>
+            </div>
+
+            <p>Not a member? <a href="/signup.html" class="link">Sign up now</a></p>
+        </div>
+    </body>
+</html>

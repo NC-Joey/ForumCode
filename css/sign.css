@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    margin: 0;
+    padding: 1em 0;
+    font-family: 'Carme', sans-serif;
+    color: #6a6a6a;
+    background: #f0f0f0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    background-color: #ffffff;
+    width: 450px;
+    margin: 0 auto;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .3em;
+}
+
+.heading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 1.5em 0;
+}
+
+form {
+    width: 100%;
+}
+#email, #password, #name {
+    height: 3rem;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1em 3em;
+    margin-bottom: 1.5em;
+    color: #9f9f9f;
+    background-color: #dfdfdf;
+    border: 0;
+    border-radius: .3em;
+    outline: none;
+}
+
+#email::before {
+    background: image();
+}
+
+#email:focus, #password:focus, #name:focus {
+    font-size: .9rem;
+    padding: 1em 3.5em;
+}
+
+input[type=submit] {
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1em 3em;
+    border: 0;
+    background: #ff9a6e;
+    color: #ffffff;
+    margin: 2em 0;
+    cursor: pointer;
+    border-radius: .3em;
+    margin-bottom: 1.8em;
+}
+
+.fa-light {
+    position: absolute;
+    font-size: 1.3rem;
+    color: #9f9f9f;
+    padding: .9rem 0 0 1rem;
+
+}
+
+.alt-login {
+    text-align: center;
+}
+
+.social-div {
+    margin-bottom: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.social {
+    border: 1px solid #e5e5e5;
+    width: 150px;
+    background: none;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    padding: .4em 1em;
+    cursor: pointer;
+}
+
+button img {
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+
+.link {
+    color: #ff9a6e;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
