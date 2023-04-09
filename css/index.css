@@ -54,6 +54,17 @@ nav {
 
 }
 
+.fa-user {
+    margin-right: 5px;
+}
+.profile-drop {
+    display: none;
+
+}
+.profile:hover .profile-drop {
+    display: block;
+}
+
 main {
     display: flex;
 }
@@ -108,13 +119,14 @@ main {
 .category {
     padding: .5em 0 .5em 1em;
 }
-.fa-chevron-down {
+.category .fa-chevron-down {
     float: right;
     padding-right: 1em;
 
 }
 .dropdown {
     display: none;
+    background-color: #fbfbfb;
 }
 
 .category-block:hover .dropdown {
@@ -123,7 +135,7 @@ main {
 .topic {
     display: block;
     width: 100%;
-    padding: .5em 0;
+    padding: .5em 2em;
     
 }
 
